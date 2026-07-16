@@ -1,0 +1,164 @@
+@charset "UTF-8";
+*{
+    font-family: sans-serif, serif, "メイリオ";
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 1em;
+
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+}
+
+header{
+
+    grid-area: header;
+
+    background-color: lightblue;
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+}
+
+h1{
+
+    background-color: rgb(105, 153, 255);
+
+    color: white;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+}
+
+nav{
+
+    background-color: white;
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+}
+
+main{
+
+    grid-area: main;
+
+}
+
+section{
+
+    background-color: #eeeeee;
+
+    border: 1px solid black;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin: 20px;
+
+}
+
+h2,
+h3{
+
+    background-color: rgb(240, 255, 127);
+
+    border: 1px solid black;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    text-align: center;
+
+}
+
+section div{
+
+    list-style: circle;
+
+    background-color: white;
+
+    border: 1px solid black;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+}
+
+p{
+
+    line-height: 1.5rem;
+
+    text-align: center;
+
+}
+
+ul{
+
+    list-style: circle;
+
+    background-color: white;
+
+    border: 1px solid black;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+}
+
+li{
+
+    margin: 10px;
+
+}
+
+a:hover{
+
+    font-size: 1.2em;
+
+}
+
+video{
+
+    border: 2px solid black;
+
+    border-radius: 20px;
+
+}
+
+footer{
+
+    grid-area: footer;
+
+    background-color: lightgray;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 50px;
+
+}
